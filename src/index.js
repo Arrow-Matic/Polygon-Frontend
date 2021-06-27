@@ -5,9 +5,9 @@ import App from './App'
 import reportWebVitals from './reportWebVitals'
 
 const appId =
-  'buas0r8k6V3peaVueknUNGdm7ljlDmUtSLxGjvpa'
+  'rfr7eWASGRg71aoSXZgOriOnXMuNMJhvnSA8jRJP'
 const serverURL =
-  'https://8ywmiidjmdfz.moralis.io:2053/server'
+  'https://g1zt2n6oabxe.moralis.io:2053/server'
 
 ReactDOM.render(
   <React.StrictMode>

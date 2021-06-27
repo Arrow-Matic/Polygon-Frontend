@@ -1,8 +1,8 @@
-import React from 'react'
+ import React from 'react'
 import { useMoralis } from 'react-moralis'
 
 function Authentication() {
-  const {
+   const {
     authenticate,
     isAuthenticated,
     isAuthenticating,
@@ -13,7 +13,7 @@ function Authentication() {
   if (isAuthenticated) {
     return (
       <container>
-        <h1>
+        <h1>/*  */
           Welcome to Arrow-matic,{' '}
           {user.attributes.username}
         </h1>
@@ -36,6 +36,7 @@ function Authentication() {
       </button>
     </div>
   )
-}
+} 
 
 export default Authentication
+ 
